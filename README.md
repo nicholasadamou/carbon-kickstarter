@@ -755,4 +755,4 @@ SASS_PATH="node_modules"
 
 # Credits
 
--   [elowry/carbon-v10-tips](https://github.ibm.com/elowry/carbon-v10-tips) for the initial platform that _nicholasadamou/carbon-kickstarter_ was built on.
+-   [elowry/carbon-v10-tips](https://github.ibm.com/elowry/carbon-v10-tips) for the initial platform that [nicholasadamou/carbon-kickstarter](https://github.com/nicholasadamou/carbon-kickstarter) was built on.
