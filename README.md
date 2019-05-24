@@ -5,13 +5,14 @@ This project is the source material for using the
 
 # tldr;
 
-Clone this repo, install debs, and start the development server:
+Clone this repo, install debs, copy carbon scss, and start the development server:
 
 ```bash
-git clone https://github.com/nicholasadamou/carbon-kickstarter
-cd carbon-kickstarter && \
-    yarn install && \
-    yarn start
+git clone https://github.com/nicholasadamou/carbon-kickstarter && \
+    cd carbon-kickstarter && \
+        npm install && \
+        npm run copy-scss && \
+        npm start
 ```
 
 # Chapter 1 - Build A Basic App
