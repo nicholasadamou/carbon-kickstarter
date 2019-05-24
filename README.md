@@ -3,6 +3,17 @@
 This project is the source material for using the
 [Carbon Design System](https://www.carbondesignsystem.com/) with React.
 
+# tldr;
+
+Clone this repo, install debs, and start the development server:
+
+```bash
+git clone https://github.com/nicholasadamou/carbon-kickstarter
+cd carbon-kickstarter && \
+    yarn install && \
+    yarn start
+```
+
 # Chapter 1 - Build A Basic App
 
 0. Prerequisites
@@ -15,7 +26,7 @@ This project is the source material for using the
 1. Create the starter application
 
 ```bash
-npx create-react-app carbon-kickstsar
+npx create-react-app carbon-kickstarter
 cd carbon-kickstarter
 ```
 
