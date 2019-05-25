@@ -1,0 +1,32 @@
+@import '@carbon/colors/scss/colors';
+@import '@carbon/layout/scss/spacing';
+@import '@carbon/type/scss/type';
+@import '@carbon/grid/scss/grid';
+
+.cards {
+	@extend .bx--row;
+}
+
+.cards-container {
+	margin-top: $carbon--spacing-07;
+	@extend .bx--grid
+}
+
+.card {
+
+	@extend .bx--col-md;
+
+	.face {
+		margin: $carbon--spacing-03;
+		margin-top: $carbon--spacing-07;
+		padding: $carbon--spacing-05;
+		border-radius: .50rem;
+		height: 300px;
+		background: $carbon--white-0;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	border-radius: .25rem;
+	min-height: 450px;
+	font-size: carbon--type-scale(6);
+}

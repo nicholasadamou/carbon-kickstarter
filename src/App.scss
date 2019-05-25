@@ -2,3 +2,156 @@
 @import '@carbon/type/scss/type';
 @import '@carbon/layout/scss/layout';
 @import '@carbon/grid/scss/grid';
+
+body {
+	background: $carbon--blue-100;
+	font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono',
+		'Bitstream Vera Sans Mono', Courier, monospace;
+}
+
+.page-header {
+	background-image: url('./ArticleHero.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	height: 100%;
+	color: $carbon--white-0;
+	margin-top: -$carbon--spacing-10;
+	padding-top: $carbon--spacing-10;
+	padding-left: $carbon--spacing-10;
+	padding-bottom: $carbon--spacing-10;
+	padding-right: $carbon--spacing-10;
+	font-size: carbon--type-scale(20);
+	font-size: 80px;
+	min-width: $carbon--spacing-03;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.title {
+	width: 26ch;
+	overflow: hidden;
+	border-right: 0.5px solid $carbon--white-0;
+	white-space: nowrap;
+	text-align: center;
+	font-weight: 300;
+	font-size: carbon--type-scale(15);
+	padding: $carbon--spacing-09;
+	margin: 0 auto;
+	line-height: $carbon--spacing-11;
+	animation: type 3s steps(24), blinking-cursor .5s step-end infinite;
+}
+
+@keyframes type {
+	0% {
+		width: 0ch;
+	}
+
+	100% {
+		width: 26ch;
+
+	}
+}
+
+@keyframes blinking-cursor {
+
+	from,
+	to {
+		border-color: transparent
+	}
+
+	50% {
+		border-color: solid $carbon--white-0
+	}
+}
+
+.body-header {
+	@include properties($body-short-02);
+	text-align: center;
+	margin-left: $carbon--spacing-12;
+	font-size: carbon--type-scale(07);
+	word-spacing: 0.5rem;
+	line-height: $carbon--spacing-10;
+}
+
+.buttons {
+	background-color: $carbon--white-0;
+	color: $carbon--blue-50;
+	font-size: carbon--type-scale(04);
+	border-radius: .5rem;
+	margin: 0 .50rem;
+
+	&:hover {
+		background-color: $carbon--blue-100;
+	}
+}
+
+.ButtonClass {
+	display: inline-block;
+	text-align: center;
+}
+
+.top-card {
+	text-align: center;
+	margin-left: $carbon--spacing-02;
+	margin-top: $carbon--spacing-08;
+}
+
+.icons {
+	height: $carbon--spacing-11;
+	width: $carbon--spacing-11;
+	;
+}
+
+.buttonName {
+	font-style: normal;
+	font-size: carbon--type-scale(10);
+	margin-top: $carbon--spacing-07;
+}
+
+.header-buttons {
+	text-align: center;
+	padding-left: $carbon--spacing-08;
+	margin-top: $carbon--spacing-04;
+}
+
+.header-btn {
+	.header-btn-content {
+		text-align: center;
+		padding: 0 40px;
+		font-size: carbon--type-scale(03);
+	}
+
+	&:focus {
+		border: none;
+		outline: none;
+	}
+
+	background: $carbon--blue-100;
+	border-radius: .5rem;
+	margin-left: $carbon--spacing-06;
+}
+
+.header-btn-cons {
+	background-color: $carbon--black-100;
+
+	&:focus {
+		border: none;
+		outline: none;
+	}
+}
+
+.header-btn-cons:hover {
+	background-color: $carbon--gray-60;
+}
+
+.ButtonClass {
+	min-width: 200px;
+	;
+}
+
+.bx--btn {
+	padding: 10px 20px;
+	text-align: center;
+}
