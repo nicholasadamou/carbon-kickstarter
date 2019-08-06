@@ -14,6 +14,8 @@ git clone https://github.com/nicholasadamou/carbon-kickstarter && \
         yarn start
 ```
 
+or fork the [`codesandbox`](https://codesandbox.io/s/carbon-kickstarter-8l2r4?codemirror=1&eslint=1&fontsize=14) template.
+
 # Chapter 1 - Build A Basic App
 
 0. Prerequisites
