@@ -10,9 +10,8 @@ Clone this repo, install debs, copy carbon scss, and start the development serve
 ```bash
 git clone https://github.com/nicholasadamou/carbon-kickstarter && \
     cd carbon-kickstarter && \
-        npm install && \
-        npm run copy-scss && \
-        npm start
+        yarn install && \
+        yarn start
 ```
 
 # Chapter 1 - Build A Basic App
