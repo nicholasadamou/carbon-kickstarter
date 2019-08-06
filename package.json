@@ -23,7 +23,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"copy-scss": "rm -rf @carbon && rsync -a -m ./node_modules/@carbon . --include '*.scss' --exclude '*.*' --exclude 'LICENSE'",
-		"push-it": "rm -rf ./build && react-scripts build && ibmcloud cf push"
+		"clean": "sudo rm -rf node_modules package-lock.json yarn.lock"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
